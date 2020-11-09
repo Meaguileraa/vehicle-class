@@ -11,4 +11,5 @@ class Vehicle:
         self.max_speed = max_speed
         self.mileage = mileage
 
-        
+Honda = Vehicle(300, 10000)
+print(Honda.max_speed, Honda.mileage)
